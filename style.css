@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 23px;
+}
+/* adjusting header i.e, name /contacts section */
+header {
+  text-align: center;
+  padding: 28px;
+}
+header ul {
+  display: flex;
+  /*   list-style:none; */
+  gap: 50px;
+  justify-content: center;
+}
+.header_links {
+  padding: 5px;
+}
+
+/* links color */
+a:link {
+  color: rgb(51, 131, 162);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(32, 142, 185);
+  text-decoration: none;
+}
+/* adding border and diving into grids:basically giving structures */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  border-top: black solid 4px;
+}
+.education,
+.skills {
+  border-right: black solid 4px;
+}
+
+/* /////////////////////// */
+/* Managing padding and margin */
+/* /////////////////////// */
+.education,
+.skills,
+.projects,
+.experience {
+  padding: 0 94px;
+  padding-top: 45px;
+  margin-left: 45px;
+}
+.courses {
+  padding-top: 54px;
+}
+ul {
+  padding-left: 38px;
+  padding-bottom: 12px;
+}
+ul ul {
+  padding-left: 48px;
+}
+li {
+  padding-bottom: 2px;
+}
+span {
+  padding-bottom: 2px;
+}
+.projects ul li,
+.projects span {
+  padding-bottom: 8px;
+}
